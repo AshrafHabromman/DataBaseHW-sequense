@@ -1,6 +1,7 @@
 
-create table guest(
-guest_Id number(9) not null primary key ,
+
+create table HOTMEL_GUEST(
+guest_ssn number(9) not null primary key ,
 
 guest_name varchar(20) not null );
 
