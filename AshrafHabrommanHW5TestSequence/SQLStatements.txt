@@ -1,0 +1,21 @@
+
+create table guest(
+guest_Id number(9) not null primary key ,
+
+guest_name varchar(20) not null );
+
+
+create  sequence  guest_ssn_seq 
+
+start with 0 
+
+increment by 1 
+
+maxvalue 99999999
+
+minvalue 0 
+no
+cycle
+
+order 
+;
